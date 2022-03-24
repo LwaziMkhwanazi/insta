@@ -1,8 +1,10 @@
+import Image from "next/image"
 
-function Story() {
+function Story({img,username}) {
   return (
-    <div>
-      <h1>story</h1>
+    <div className="">
+      <img className="h-10 w-10" src={img} />
+      <p>{username}</p>
     </div>
   )
 }
