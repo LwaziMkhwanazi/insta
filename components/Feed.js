@@ -1,4 +1,5 @@
 import Stories from "./Stories"
+import Posts from "./Posts"
 
 function Feed() {
 
@@ -9,6 +10,7 @@ function Feed() {
       <div className="col-span-2">
                {/* stories */}
                <Stories/>
+               <Posts/>
       </div>
 
      
